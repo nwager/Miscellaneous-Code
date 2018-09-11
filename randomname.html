@@ -1,0 +1,14 @@
+<p id="demo">
+Random name generator
+<script>
+var names = [
+	"noah",
+    "nathan",
+    "ben"
+    ];
+
+var num = Math.floor(Math.random() * names.length);
+
+document.getElementById("demo").innerHTML = names[num];
+</script>
+</p>
